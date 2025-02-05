@@ -14,11 +14,8 @@ class student{
 class strength : public student{
     
     private:int weight,height;
-    
-    
     protected:void setheight(int h){height=h;}
               void setweight(int w){weight=w;}
-    
     public:int getweight(){return weight;}
            int getheight(){return height;}
            void setstudent(char *ptr,int r,int w,int h){
